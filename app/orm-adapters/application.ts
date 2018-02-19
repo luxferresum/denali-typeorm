@@ -1,1 +1,1 @@
-export { TypeormAdapter as default } from 'denali-typeorm';
+export { default } from '../../lib/adapter';

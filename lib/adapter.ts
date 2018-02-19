@@ -9,7 +9,10 @@ import {
   getManager,
   EntityManager,
 } from 'typeorm';
-import { ModelRegistry, Model } from "denali-typeorm";
+// import { ModelRegistry, Model } from "./index";
+import { ModelRegistry } from "./index";
+
+export type Model = {};
 
 export default class TypeormAdapter extends ORMAdapter {
 
