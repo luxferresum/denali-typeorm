@@ -1,1 +1,1 @@
-import { TypeormAdapter } from 'denali-typeorm';
+export { TypeormAdapter as default } from 'denali-typeorm';

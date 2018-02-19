@@ -7,12 +7,13 @@ import {
 import {
   ObjectLiteral,
   getManager,
+  EntityManager,
 } from 'typeorm';
 import { ModelRegistry, Model } from "denali-typeorm";
 
 export default class TypeormAdapter extends ORMAdapter {
 
-  get manager() {
+  get manager() : EntityManager {
     return getManager();
   }
 

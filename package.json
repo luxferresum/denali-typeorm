@@ -19,6 +19,7 @@
     "denali-build.js"
   ],
   "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
