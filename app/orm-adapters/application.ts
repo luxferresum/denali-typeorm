@@ -1,0 +1,1 @@
+import { TypeormAdapter } from 'denali-typeorm';

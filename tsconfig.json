@@ -13,7 +13,10 @@
       "skipLibCheck": true,
       "sourceRoot": ".",
       "noUnusedLocals": true,
-      "baseUrl": "."
+      "baseUrl": ".",
+      "paths": {
+        "denali-typeorm": [ "lib/index.ts" ]
+      }
   },
   "include": [
     "lib/**/*",
