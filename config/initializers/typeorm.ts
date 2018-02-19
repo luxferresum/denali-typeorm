@@ -17,7 +17,6 @@ export default {
     // https://github.com/denali-js/denali/issues/430
     const options = await getConnectionOptions();
     const entityLookups = container.lookupAll('entity');
-    console.log(entityLookups);
 
     const entities : ({new(): any})[] = [];
 
