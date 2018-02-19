@@ -27,6 +27,7 @@
     "denali-typescript": "^0.0.11",
     "lodash": "^4.17.4",
     "tslint": "^5.9.1",
+    "typeorm": "^0.1.12",
     "typescript": "^2.7.2"
   },
   "devDependencies": {
